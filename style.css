@@ -1,0 +1,165 @@
+/*resetando */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*definindo o painel*/
+
+
+
+
+
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+header h1{
+    color: white;
+}
+header img{
+    width: 70px;
+}
+/*definindo fonte da pagina*/
+ header {
+    font-family: "Bungee", sans-serif;
+}
+section h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+section h3{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+form button{
+    font-family: "Bungee", sans-serif;
+}
+
+
+
+/*definindo links*/
+header li{
+    display: inline;
+    margin: 5px;
+    align-items: center;
+
+
+
+
+
+
+   
+    
+    /*decorando links*/
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+/*na hora que passar o mouse emcima*/
+header li :hover{
+    color: rgb(255, 0, 0);
+
+
+
+
+
+
+
+}
+/*inicio do conteudo*/
+
+header .container , 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.marcas img {
+    height: 24px;
+    height: 50px;
+}
+
+.marcas li{
+    
+    display: inline;
+    margin-right: 8px;
+    padding-left: 15px;
+}
+section .container{
+    align-items: flex-start;
+    
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    padding: 15px;
+}
+section{
+    color: rgb(168, 0, 0);
+}
+section p {
+    margin-bottom: 8px;
+    padding-left: 15px;
+   font-family:  "Moderustic", sans-serif;;
+}
+section h2{
+    font-family: "Matemasie", sans-serif;;
+}
+.foto img{
+width: 750px;
+padding-left: 15px;
+}
+.links img{
+    height: 30px;
+    
+}
+.links  li{
+    display: inline;
+    margin-right: 10px;
+} 
+#contact .container{
+    display: block;
+}
+.contact-methodos{
+    display: flex;
+    justify-content: space-between ;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+ resize: none;   
+}
+section h3{
+    margin-bottom: 16px;
+}
+form button{
+    background-color: #d30b0b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{ 
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    background-color: #d30b0b;
+    color: #fff;
+    padding: 15px 0;
+}
